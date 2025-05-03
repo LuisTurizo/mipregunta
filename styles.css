@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    text-align: center;
+}
+
+.texto {
+    color: white;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-sí {
+    background-color: green;
+}
+
+.btn-no {
+    background-color: red;
+}
+
+.mensaje {
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 15px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    display: none; /* Inicialmente oculto */
+}
